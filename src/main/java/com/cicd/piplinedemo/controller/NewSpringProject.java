@@ -7,8 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1")
 public class NewSpringProject {
-    @GetMapping
+    @GetMapping("/OLD")
     public ResponseEntity<String> getAPI(){
         return ResponseEntity.ok("OK WE ARE READY");
+    }
+    @GetMapping("/NEW")
+    public ResponseEntity<String> getTest(){
+        return ResponseEntity.ok("OK WE ARE READY NEW");
     }
 }
