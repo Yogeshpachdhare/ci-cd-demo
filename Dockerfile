@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY target/*.jar app.jar
 EXPOSE 8085
-LABEL authors="DHANSHREE"
+LABEL authors="YOGESH"
 
 ENTRYPOINT ["java", "-jar","app.jar"]
