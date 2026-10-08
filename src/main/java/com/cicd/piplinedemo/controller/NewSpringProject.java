@@ -15,4 +15,8 @@ public class NewSpringProject {
     public ResponseEntity<String> getTest(){
         return ResponseEntity.ok("OK WE ARE READY NEW");
     }
+    @GetMapping("/NEWEST")
+    public ResponseEntity<String> getTest2(){
+        return ResponseEntity.ok("OK WE ARE READY NEW");
+    }
 }
